@@ -1,4 +1,31 @@
-body {
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
     display: grid;
-    grid-template-rows: 3fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(10, 10%);
+}
+
+nav {
+    grid-column: 8 / 11;
+}
+
+/* MAIN */
+main {
+    display: grid;
+
+}
+
+/* FOOTER */
+footer {
+    display: grid;
+
 }
