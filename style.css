@@ -10,12 +10,22 @@ a {
 /* HEADER */
 header {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: repeat(12, 1fr);
 }
 
 nav {
-    grid-column: 8 / 11;
+    grid-column: 6 / 13;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    grid-row: 2 / 3;
+    grid-column:  3 / 11;
 }
 
 /* MAIN */
