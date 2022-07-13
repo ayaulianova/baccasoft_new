@@ -7,8 +7,8 @@ ul {
 }
 
 a {
-    color: #000;
     text-decoration: none;
+    color: #fff;
 }
 
 /* HEADER */
@@ -17,6 +17,8 @@ header {
     grid-template-rows: 200px 1fr;
     grid-template-columns: repeat(12, 1fr);
     height: 100vh;
+    background-image: url('./images/Group\ 512353.jpg');
+    color: #fff;
 }
 
 nav {
