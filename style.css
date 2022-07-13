@@ -1,0 +1,41 @@
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+nav {
+    grid-column: 6 / 13;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    grid-row: 2 / 3;
+    grid-column:  3 / 11;
+}
+
+/* MAIN */
+main {
+    display: grid;
+
+}
+
+/* FOOTER */
+footer {
+    display: grid;
+
+}
