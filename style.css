@@ -1,3 +1,7 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 ul {
     list-style: none;
 }
@@ -10,7 +14,7 @@ a {
 /* HEADER */
 header {
     display: grid;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 200px 1fr;
     grid-template-columns: repeat(12, 1fr);
 }
 
@@ -21,11 +25,24 @@ nav {
 nav > ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 aside {
     grid-row: 2 / 3;
     grid-column:  3 / 11;
+}
+
+aside > h1 {
+    font-size: 96px;
+    
+}
+
+aside > p {
+    font-size: 24px;
+    line-height: 40px;
 }
 
 /* MAIN */
