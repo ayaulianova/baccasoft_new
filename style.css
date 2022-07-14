@@ -1,5 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 
 ul {
@@ -11,13 +12,19 @@ a {
     color: #fff;
 }
 
+a:hover {
+    color: #EB552C;
+}
+
 /* HEADER */
 header {
     display: grid;
     grid-template-rows: 200px 1fr;
     grid-template-columns: repeat(12, 1fr);
     height: 100vh;
+    background-color: blueviolet;
     background-image: url('./images/Group\ 512353.jpg');
+    background-origin: border-box;
     color: #fff;
 }
 
@@ -46,6 +53,8 @@ aside > h1 {
 aside > p {
     font-size: 24px;
     line-height: 40px;
+    font-weight: 400;
+    opacity: 0.7;
 }
 
 /* MAIN */
